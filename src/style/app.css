@@ -1,0 +1,62 @@
+html{
+    font-size:10px;
+}
+body{
+    background-color: #f6f6f6;
+}
+
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 15px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 17px !important; 
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 19px !important; 
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 21px !important; 
+    }
+}
+@media only screen and (min-width: 768px){
+    html {
+        font-size: 23px !important; 
+    }
+}
+@media only screen and (min-width: 992px){
+    html {
+        font-size: 25px !important; 
+    }
+}
+@media only screen and (min-width: 1200px){
+    html {
+        font-size: 30px !important; 
+    }
+}
+.header-top{
+    height: 46px ;
+    background-color: rgb(0, 21, 41);
+    
+}
+.logo{
+    background-color:#ccc;
+    height: 46px;
+    padding:0px 10px;
+    text-align: center;
+}
+.header-login{
+    line-height: 46px;
+    color:#fff ;
+    text-align: right;
+    
+}
+.main{
+    margin-top:5px;
+}
